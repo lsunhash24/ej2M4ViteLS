@@ -6,8 +6,6 @@ import {
     guardarLocalStorage,
     currencyFormatter
   } from "./funciones.js";
-
-  // import '../src/style.css'
   
   let datos1 = obtenerLocalStorage();
   //mostrar datos del localStorage en una tabla
