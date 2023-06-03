@@ -1,5 +1,6 @@
 import legacy from '@vitejs/plugin-legacy';
 import { defineConfig } from 'vite';
+import { resolve } from "path";
 
 export default defineConfig({
 	plugins: [
@@ -10,6 +11,12 @@ export default defineConfig({
 	],
 	build: {
 		manifest: true,
+		rollupOptions: {
+			input: {
+			  main: resolve(__dirname, "index.html"),
+			  customPage: resolve(__dirname, "components/proveedores.html"),
+			},
+		},	
 	},
 	base: '/ej2M4ViteLS/',
 });
