@@ -16,4 +16,4 @@ document.querySelector('#app').innerHTML = `
         </nav>
       </header>`
 
-// setupCounter(document.querySelector('#counter'))
+
