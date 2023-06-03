@@ -32,14 +32,6 @@ import {
       //por el formulario
       let nuevoArticulo = new Articulo(producto, precio);
   
-      //se agrega la nueva empresa a un arreglo con nuevos datos 
-      //let datos = ({
-      //   id: nuevaEmpresa.id,
-      //   nombre: nuevaEmpresa.nombre,
-      //   rut: nuevaEmpresa.rut,
-      //   importacion: [],
-      // });
-  
       //se limpia el formulario
       //  form.reset();
   
