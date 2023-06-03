@@ -16,6 +16,7 @@ export default defineConfig({
 			  main: resolve(__dirname, "index.html"),
 			  customPage: resolve(__dirname, "src/components/proveedor.html"),
 			  customPage2: resolve(__dirname, "src/components/articulo.html"),
+			  customPage3: resolve(__dirname, "index.html"),
 			},
 		},	
 	},
