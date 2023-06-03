@@ -11,5 +11,5 @@ export default defineConfig({
 	build: {
 		manifest: true,
 	},
-	base: '/ejercicioIndividual2M4/',
+	base: '/ej2M4ViteLS/',
 });
