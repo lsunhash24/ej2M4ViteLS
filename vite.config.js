@@ -14,7 +14,7 @@ export default defineConfig({
 		rollupOptions: {
 			input: {
 			  main: resolve(__dirname, "index.html"),
-			  customPage: resolve(__dirname, "/components/proveedor.html"),
+			  customPage: resolve(__dirname, "src/components/proveedor.html"),
 			},
 		},	
 	},
