@@ -13,20 +13,12 @@ export default defineConfig({
 		manifest: true,
 		rollupOptions: {
 			input: {
-			  main: resolve(__dirname, "index.html"),
-			//   customPage: resolve(__dirname, "src/components/proveedor.html"),
-			//   customPage2: resolve(__dirname, "src/components/articulo.html"),
+			  main: resolve(__dirname, "/index.html"),
+			  customPage: resolve(__dirname, "src/components/proveedor.html"),
+		      customPage2: resolve(__dirname, "src/components/articulo.html"),
 			},
 		},	
 	},
-	pages: {
-		'/proveedor': {
-		  entry: 'src/components/proveedor.html'
-		},
-		'/articulo': {
-		  entry: 'src/components/articulo.html'
-		}
-	  },
-
+	
 	base: '/ej2M4ViteLS/',
 });
