@@ -2,17 +2,6 @@ import legacy from '@vitejs/plugin-legacy';
 import { defineConfig } from 'vite';
 import { resolve } from "path";
 
-module.exports = {
-	pages: {
-	  '/proveedor': {
-		entry: 'src/components/proveedor.html'
-	  },
-	  '/articulo': {
-		entry: 'src/components/articulo.html'
-	  }
-	}
-  }
-
 export default defineConfig({
 	plugins: [
 		legacy({
@@ -30,5 +19,14 @@ export default defineConfig({
 			},
 		},	
 	},
+	pages: {
+		'/proveedor': {
+		  entry: 'src/components/proveedor.html'
+		},
+		'/articulo': {
+		  entry: 'src/components/articulo.html'
+		}
+	  },
+
 	base: '/ej2M4ViteLS/',
 });
