@@ -13,8 +13,8 @@ export default defineConfig({
 		manifest: true,
 		rollupOptions: {
 			input: {
-			  main: resolve(__dirname, "/index.html"),
-			  customPage: resolve(__dirname, "/proveedor.html"),
+			  main: resolve(__dirname, "index.html"),
+			  customPage: resolve(__dirname, "proveedor.html"),
 		      customPage2: resolve(__dirname, "src/components/articulo.html"),
 			},
 		},	
