@@ -25,7 +25,7 @@ import {
       email = document.getElementById('input_email').value,
       telefono = document.getElementById('input_telefono').value;
   
-    //validaciÃ³n de textos ingresados
+    //validacion de textos ingresados
     if (validaTexto(nombre) && validaTexto(telefono)) {
   
       //se crea una instancia del objeto Empresa y se le agregan los datos capturados
