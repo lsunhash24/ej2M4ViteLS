@@ -2,6 +2,17 @@ import legacy from '@vitejs/plugin-legacy';
 import { defineConfig } from 'vite';
 import { resolve } from "path";
 
+module.exports = {
+	pages: {
+	  '/proveedor': {
+		entry: 'src/components/proveedor.html'
+	  },
+	  '/articulo': {
+		entry: 'src/components/articulo.html'
+	  }
+	}
+  }
+
 export default defineConfig({
 	plugins: [
 		legacy({
@@ -14,8 +25,8 @@ export default defineConfig({
 		rollupOptions: {
 			input: {
 			  main: resolve(__dirname, "index.html"),
-			  customPage: resolve(__dirname, "src/components/proveedor.html"),
-			  customPage2: resolve(__dirname, "src/components/articulo.html"),
+			//   customPage: resolve(__dirname, "src/components/proveedor.html"),
+			//   customPage2: resolve(__dirname, "src/components/articulo.html"),
 			},
 		},	
 	},
