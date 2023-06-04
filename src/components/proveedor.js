@@ -41,7 +41,7 @@ import {
       // });
   
       //se limpia el formulario
-      //  form.reset();
+      form.reset();
   
       // se aguardan los datos en local storage
        guardarLocalStorage(nuevoProveedor);
